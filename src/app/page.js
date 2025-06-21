@@ -1,13 +1,17 @@
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+
+import WhyChooseUs from "./components/WhyChooseUs";
+import FeaturedCollections from "./components/FeaturedCollections";
 
 export default function Home() {
   return (
    <div>
           
+
              <HeroSection/>
+             <FeaturedCollections/>
+             <WhyChooseUs/>
            
    </div>
   );

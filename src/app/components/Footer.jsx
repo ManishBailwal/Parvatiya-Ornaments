@@ -8,7 +8,7 @@ export default function Footer() {
         
         {/* Brand Info */}
         <div>
-          <h2 className="text-3xl font-serif text-[#D4AF37] mb-4">LuxeGold</h2>
+          <h2 className="text-3xl font-serif text-[#D4AF37] mb-4">Parvatiya Ornaments</h2>
           <p className="text-sm text-[#B3B3B3] leading-relaxed">
             LuxeGold offers timeless pieces of luxury jewellery, expertly crafted to elevate every moment.
           </p>
