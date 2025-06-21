@@ -50,9 +50,9 @@ export default function FeaturedCollections() {
                 alt={item.title}
                 width={500}
                 height={500}
-                className="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+                className="w-full h-72 object-cover group-hover:scale-150 transition duration-500"
               />
-              <div className="absolute inset-0 bg-black/60 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center">
+              <div className="absolute inset-0 bg-black/60 opacity-100 transition duration-300 flex flex-col justify-center items-center">
                 <h3 className="text-2xl font-semibold text-[#FDF6E3] mb-2">{item.title}</h3>
                 <p className="text-sm text-[#B3B3B3] mb-4 px-4">{item.tagline}</p>
                 <button
