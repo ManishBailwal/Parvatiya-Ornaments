@@ -32,7 +32,7 @@ export default function AboutSection() {
             Parvatiya Ornaments, Dharampur Araghar
           </h2>
           <p className="text-[#B3B3B3] text-md md:text-lg mb-6 leading-relaxed">
-            Since <span className="text-[#D4AF37] font-semibold">1984</span>, we’ve been the trusted destination in Dehradun for handcrafted jewellery that celebrates tradition and elegance. From <span className="text-[#FDF6E3]">Fine Gold</span> to <span className="text-[#FDF6E3]">925 Hallmark Silver</span>, each piece is a reflection of artistry and authenticity.
+            Since <span className="text-[#D4AF37] font-semibold">1984</span>, we have been the trusted destination in Dehradun for handcrafted jewellery that celebrates tradition and elegance. From <span className="text-[#FDF6E3]">Fine Gold</span> to <span className="text-[#FDF6E3]">925 Hallmark Silver</span>, each piece is a reflection of artistry and authenticity.
           </p>
           <ul className="text-sm text-[#FDF6E3] space-y-2 mb-6">
             <li>⭐ Fine Gold Jewellery</li>

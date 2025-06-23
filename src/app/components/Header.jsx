@@ -20,13 +20,16 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-10 text-[#FDF6E3] font-medium">
+             <Link href="/home" className="hover:text-[#D4AF37] transition-all duration-300">
+              Home
+            </Link>
             <Link href="#collections" className="hover:text-[#D4AF37] transition-all duration-300">
               Collections
             </Link>
-            <Link href="#about" className="hover:text-[#D4AF37] transition-all duration-300">
+            <Link href="/about" className="hover:text-[#D4AF37] transition-all duration-300">
               About
             </Link>
-            <Link href="#contact" className="hover:text-[#D4AF37] transition-all duration-300">
+            <Link href="/contact" className="hover:text-[#D4AF37] transition-all duration-300">
               Contact
             </Link>
           </nav>
@@ -70,14 +73,17 @@ export default function Header() {
               </button>
 
               {/* Navigation Links */}
-              <h2 className="text-3xl font-serif text-[#D4AF37] mb-4">LuxeGold</h2>
-              <Link href="#collections" onClick={toggleMenu} className="hover:text-[#D4AF37] text-2xl transition-all">
+              <h2 className="text-3xl font-serif text-[#D4AF37] mb-4">Parvatiya Ornaments</h2>
+               <Link href="/home" onClick={toggleMenu} className="hover:text-[#D4AF37] text-2xl transition-all">
+                Home
+              </Link>
+              <Link href="/collections" onClick={toggleMenu} className="hover:text-[#D4AF37] text-2xl transition-all">
                 Collections
               </Link>
-              <Link href="#about" onClick={toggleMenu} className="hover:text-[#D4AF37] text-2xl transition-all">
+              <Link href="/about" onClick={toggleMenu} className="hover:text-[#D4AF37] text-2xl transition-all">
                 About
               </Link>
-              <Link href="#contact" onClick={toggleMenu} className="hover:text-[#D4AF37] text-2xl transition-all">
+              <Link href="/contact" onClick={toggleMenu} className="hover:text-[#D4AF37] text-2xl transition-all">
                 Contact
               </Link>
             </motion.div>
