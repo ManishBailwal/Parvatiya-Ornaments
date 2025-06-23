@@ -84,7 +84,7 @@ export default function AboutPage() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-3xl md:text-4xl font-serif text-[#FDF6E3] mb-6">
-            More Than Jewellery — It's a Legacy
+            More Than Jewellery — It&#39;s a Legacy
           </h2>
           <p className="text-[#B3B3B3] text-md md:text-lg leading-relaxed">
             At Parvatiya Ornaments, we do not just sell ornaments — we craft stories,
