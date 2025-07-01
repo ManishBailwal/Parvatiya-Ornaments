@@ -5,17 +5,17 @@ import { motion } from 'framer-motion'
 export default function FeaturedCollections() {
   const collections = [
     {
-      title: 'Gold Necklaces',
+      title: 'Gold Jewellery',
       tagline: 'Timeless elegance in every strand.',
       image: '/assets/gold.jpg',
     },
     {
-      title: '925 Silver Rings',
+      title: ' Silver Jewellery ',
       tagline: 'Bold, refined and hallmarked to shine.',
       image: '/assets/silver.jpg',
     },
     {
-      title: 'Diamond Sets',
+      title: 'Diamond Jewellery',
       tagline: 'Celebrate your day with grace & glamour.',
       image: '/assets/diamond.jpg',
     },
