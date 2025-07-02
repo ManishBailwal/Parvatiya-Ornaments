@@ -10,7 +10,7 @@ export default function FeaturedCollections() {
       image: '/assets/gold.jpg',
     },
     {
-      title: ' Silver Jewellery ',
+      title: 'Silver Jewellery',
       tagline: 'Bold, refined and hallmarked to shine.',
       image: '/assets/silver.jpg',
     },
@@ -22,17 +22,17 @@ export default function FeaturedCollections() {
   ]
 
   return (
-    <section className="bg-black text-white py-20 px-6 md:px-16">
+    <section className="bg-white text-[#1A1A1A] py-20 px-6 md:px-16">
       <div className="max-w-7xl mx-auto text-center">
         <motion.h2
-          className="text-3xl md:text-5xl font-serif text-[#FDF6E3] mb-6"
+          className="text-3xl md:text-5xl font-serif text-[#C8102E] mb-6"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
           Explore Our <span className="text-[#D4AF37]">Signature Collections</span>
         </motion.h2>
-        <p className="text-[#B3B3B3] text-md md:text-lg mb-12">
+        <p className="text-[#555] text-md md:text-lg mb-12">
           Handpicked designs crafted with passion and purity.
         </p>
 
@@ -52,13 +52,14 @@ export default function FeaturedCollections() {
                 height={500}
                 className="w-full h-72 object-cover group-hover:scale-150 transition duration-500"
               />
-              <div className="absolute inset-0 bg-black/60 opacity-100 transition duration-300 flex flex-col justify-center items-center">
-                <h3 className="text-2xl font-semibold text-[#FDF6E3] mb-2">{item.title}</h3>
-                <p className="text-sm text-[#B3B3B3] mb-4 px-4">{item.tagline}</p>
+              {/* Minimal dark gradient overlay with text */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/40 to-transparent flex flex-col justify-end items-center text-center px-6 py-6">
+                <h3 className="text-xl md:text-2xl font-semibold text-white mb-1">{item.title}</h3>
+                <p className="text-sm text-white mb-3">{item.tagline}</p>
                 <button
-                  className="text-black cursor-pointer font-medium px-5 py-2 rounded-full shadow-md"
+                  className="text-white font-medium px-5 py-2 rounded-full shadow-md"
                   style={{
-                    background: 'linear-gradient(90deg, #d4af37, #fff8dc, #d4af37)',
+                    background: 'linear-gradient(90deg, #c8102e, #ffd5d5, #c8102e)',
                     backgroundSize: '200% auto',
                     animation: 'shimmer 2.5s linear infinite',
                   }}
@@ -71,7 +72,7 @@ export default function FeaturedCollections() {
         </div>
       </div>
 
-      {/* Inline shimmer keyframes for button */}
+      {/* Inline shimmer keyframes */}
       <style jsx>{`
         @keyframes shimmer {
           0% {

@@ -29,7 +29,7 @@ export default function HeroSection() {
             priority
           />
           {/* Semi-transparent black overlay */}
-          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+          <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
         </div>
 
         {/* Centered Text Content */}
@@ -43,15 +43,15 @@ export default function HeroSection() {
             <h1 className="text-4xl md:text-6xl font-serif text-[#FDF6E3] leading-tight mb-6 drop-shadow-md">
               Jewellery That Defines <span className="text-[#D4AF37]">Elegance</span>
             </h1>
-            <p className="text-[#B3B3B3] text-lg md:text-xl mb-8 drop-shadow-sm">
+            <p className="text-white text-lg md:text-xl mb-8 drop-shadow-sm">
               Discover timeless luxury in every piece. Explore our handpicked collection of gold, diamond, and bridal jewellery.
             </p>
 
-            {/* Shimmer Button */}
+            {/* Updated Shimmer Button */}
             <button
-              className="text-black cursor-pointer font-medium px-6 py-3 rounded-full transition-all shadow-lg"
+              className="text-white cursor-pointer font-medium px-6 py-3 rounded-full transition-all shadow-lg"
               style={{
-                background: 'linear-gradient(90deg, #d4af37, #fff8dc, #d4af37)',
+                background: 'linear-gradient(90deg, #c8102e, #ffd5d5, #c8102e)',
                 backgroundSize: '200% auto',
                 animation: 'shimmer 2.5s linear infinite',
               }}
