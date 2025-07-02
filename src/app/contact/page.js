@@ -18,7 +18,7 @@ export default function Contact() {
               Get in Touch
             </h2>
             <p className="text-[#555] text-md md:text-lg mb-8 leading-relaxed">
-              Whether you're looking for something custom, have questions, or simply want to say hello — we are here for you.
+              Whether you&apos;re looking for something custom, have questions, or simply want to say hello — we are here for you.
             </p>
             <ul className="space-y-6 text-sm md:text-base text-[#333]">
               <li className="flex items-start gap-4">
