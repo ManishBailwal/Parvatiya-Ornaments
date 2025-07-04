@@ -40,7 +40,7 @@ export default function Footer() {
 
         <div className="space-y-2">
           <h3 className="text-xl font-semibold text-[#C8102E] mb-3">Contact</h3>
-          <p className="text-sm text-[#777]">Email: support@luxegold.com</p>
+          <p className="text-sm text-[#777]">Email: ornamentsparvatiya@gmail.com</p>
           <p className="text-sm text-[#777]">Phone: +91 98765 43210</p>
           <p className="text-sm text-[#777]">Location: Dehradun, India</p>
         </div>
