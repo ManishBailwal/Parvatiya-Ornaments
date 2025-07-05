@@ -7,27 +7,27 @@ const collections = [
     category: 'Gold Jewellery',
     description: 'Crafted with purity and passion, perfect for every celebration.',
     items: [
-      { name: 'Royal Ring', image: '/assets/gold1.jpg' },
-      { name: 'Bangles Set', image: '/assets/gold2.jpg' },
-      { name: 'Gold Necklace', image: '/assets/gold3.jpg' },
+      { name: 'Royal Ring', image: '/assets/gold1.JPG' },
+      { name: 'Bangles Set', image: '/assets/gold2.JPG' },
+      { name: 'Gold Necklace', image: '/assets/gold3.JPG' },
     ],
   },
   {
     category: 'Diamond Jewellery',
     description: 'Dazzle your world with brilliance that never fades.',
     items: [
-      { name: 'Heart Ring', image: '/assets/diamond1.jpg' },
-      { name: 'Diamond Band', image: '/assets/diamond2.jpg' },
-      { name: 'Necklace Set', image: '/assets/diamond3.jpg' },
+      { name: 'Heart Ring', image: '/assets/diamond1.JPG' },
+      { name: 'Diamond Band', image: '/assets/diamond2.JPG' },
+      { name: 'Necklace Set', image: '/assets/diamond3.JPG' },
     ],
   },
   {
     category: 'Silver Jewellery',
     description: 'Chic, minimal and made to shine in every moment.',
     items: [
-      { name: 'Silver Ring', image: '/assets/silver1.jpg' },
-      { name: 'Oxidised Set', image: '/assets/silver2.jpg' },
-      { name: 'Silver Anklet', image: '/assets/silver3.jpg' },
+      { name: 'Silver Ring', image: '/assets/silver1.JPG' },
+      { name: 'Oxidised Set', image: '/assets/silver2.JPG' },
+      { name: 'Silver Anklet', image: '/assets/silver3.JPG' },
     ],
   },
 ]
